@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Hi, this is the first project. Test CD'
+    return 'Hi, this is the first project. Test it!!'
 
 @app.route('/name/<value>')
 def name(value):
